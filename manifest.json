@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Qualiffy",
+  "version": "1.0",
+  "description": "Una extensión de Chrome para Qualiffy",
+  "permissions": [
+    "tabCapture"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
