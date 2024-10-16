@@ -6,6 +6,7 @@ body {
   height: 550px;
   background-color: #4a0e4e;
   color: white;
+  overflow: hidden; /* Oculta la barra de desplazamiento */
 }
 
 .container {
@@ -13,6 +14,7 @@ body {
   flex-direction: column;
   height: 100%;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 header {

@@ -4,7 +4,9 @@
   "version": "1.0",
   "description": "Una extensión de Chrome para Qualiffy",
   "permissions": [
-    "tabCapture","sidePanel"
+    "tabCapture", 
+    "activeTab", 
+    "sidePanel"
   ],
   "side_panel": {
     "default_path": "popup.html"
